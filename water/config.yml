@@ -21,7 +21,7 @@ disabled_commands:
 servers:
   lobby:
     motd: '&3Lobby &1Cosmic&5Craft'
-    address: gx_lobby:25565
+    address: 172.18.0.2:25565
     restricted: false
   team01:
     motd: '&3Team &201 &1Cosmic&5Craft'
