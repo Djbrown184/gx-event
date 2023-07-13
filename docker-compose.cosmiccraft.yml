@@ -162,3 +162,9 @@ volumes:
 
 networks:
   mc:
+    driver: bridge
+    name: mc
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.18.0.0/16"
