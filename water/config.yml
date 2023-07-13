@@ -21,47 +21,47 @@ disabled_commands:
 servers:
   lobby:
     motd: '&3Lobby &1Cosmic&5Craft'
-    address: 0.0.0.0:25565
+    address: localhost:25565
     restricted: false
   team01:
     motd: '&3Team &201 &1Cosmic&5Craft'
-    address: 0.0.0.0:25566
+    address: localhost:25566
     restricted: false
   team02:
     motd: '&3Team &202 &1Cosmic&5Craft'
-    address: 0.0.0.0:25567
+    address: localhost:25567
     restricted: false
   team03:
     motd: '&3Team &203 &1Cosmic&5Craft'
-    address: 0.0.0.0:25568
+    address: localhost:25568
     restricted: false
   team04:
     motd: '&3Team &204 &1Cosmic&5Craft'
-    address: 0.0.0.0:25569
+    address: localhost:25569
     restricted: false
   team05:
     motd: '&3Team &205 &1Cosmic&5Craft'
-    address: 0.0.0.0:25570
+    address: localhost:25570
     restricted: false
   team06:
     motd: '&3Team &206 &1Cosmic&5Craft'
-    address: 0.0.0.0:25571
+    address: localhost:25571
     restricted: false
   team07:
     motd: '&3Team &207 &1Cosmic&5Craft'
-    address: 0.0.0.0:25572
+    address: localhost:25572
     restricted: false
   team08:
     motd: '&3Team &208 &1Cosmic&5Craft'
-    address: 0.0.0.0:25573
+    address: localhost:25573
     restricted: false
   team09:
     motd: '&3Team &209 &1Cosmic&5Craft'
-    address: 0.0.0.0:25574
+    address: localhost:25574
     restricted: false
   team10:
     motd: '&3Team &210 &1Cosmic&5Craft'
-    address: 0.0.0.0:25575
+    address: localhost:25575
     restricted: false
 listeners:
 - query_port: 25577
