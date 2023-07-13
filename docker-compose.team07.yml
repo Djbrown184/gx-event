@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  gx_team_07:
+    container_name: gx_team_07
+    image: itzg/minecraft-server:latest
+    volumes:
+      - TEAM_07:/data
+    env_file: gx_team_07.env
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    networks:
+      - mc
+
+volumes:
+  TEAM_07: { }
+
+networks:
+  mc:
