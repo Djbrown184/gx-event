@@ -1,5 +1,7 @@
 #!/bin/sh
 cd ~/gx-event
+clear && docker-compose -f docker-compose.db.yml up -d
+sleep 30s
 clear && docker-compose -f docker-compose.water.yml up -d
 sleep 30s
 clear && docker cp water/config.yml gx_water:/server/config.yml
