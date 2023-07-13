@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  gx_water:
+    container_name: gx_water
+    image: itzg/bungeecoord:latest
+    ports:
+      - '25565:25577'
+    volumes:
+      - WATER:/server
+    env_file: gx_water.env
+    restart: unless-stopped
+    networks:
+      - mc
+
+volumes:
+  WATER: { }
+
+networks:
+  mc:
