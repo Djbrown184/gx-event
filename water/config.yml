@@ -1,7 +1,7 @@
 server_connect_timeout: 5000
 enforce_secure_profile: false
 remote_ping_cache: -1
-forge_support: true
+forge_support: false
 player_limit: -1
 permissions:
   admin:
@@ -78,7 +78,7 @@ listeners:
   host: 0.0.0.0:25577
   max_players: 100
   tab_size: 60
-  force_default_server: true
+  force_default_server: false
 ip_forward: true
 remote_ping_timeout: 5000
 prevent_proxy_connections: false
@@ -86,6 +86,8 @@ groups:
   Djbrown_:
   - admin
   Xbird_:
+  - admin
+  Sheiyla:
   - admin
 connection_throttle: 4000
 stats: 260d83f6-57c0-4c28-9958-06f6368972fa
