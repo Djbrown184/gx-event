@@ -14,3 +14,4 @@ docker cp spigot/spigot.yml gx_team_07:/data/spigot.yml
 docker cp spigot/spigot.yml gx_team_08:/data/spigot.yml
 docker cp spigot/spigot.yml gx_team_09:/data/spigot.yml
 docker cp spigot/spigot.yml gx_team_10:/data/spigot.yml
+sleep 5s
