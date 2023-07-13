@@ -164,7 +164,12 @@ networks:
   mc:
     driver: bridge
     enable_ipv6: false
-    ipam:
-      config:
-        - subnet: "172.18.0.0/16"
-        - gateway: "172.18.0.1"
+    ipam: {
+      driver: "default",
+      config: [
+          {
+              subnet: "172.20.0.0/16",
+              gateway: "172.20.0.1"
+          }
+      ]
+    }
