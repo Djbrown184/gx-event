@@ -1,7 +1,7 @@
 #!/bin/sh
 cd ~/gx-event
 clear && docker-compose -f docker-compose.cosmiccraft.yml up -d
-sleep 150s
+sleep 170s
 docker cp water/config.yml gx_water:/server/config.yml
 docker cp spigot/spigot.yml gx_lobby:/data/spigot.yml
 docker cp spigot/spigot.yml gx_team_01:/data/spigot.yml
