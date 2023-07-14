@@ -2,6 +2,8 @@
 cd ~/gx-event
 clear && docker-compose -f docker-compose.cosmiccraft.yml up -d
 sleep 170s
+clear && docker restart gx_db gx_water gx_lobby gx_team_01 gx_team_02 gx_team_03 gx_team_04 gx_team_05 gx_team_06 gx_team_07 gx_team_08 gx_team_09 gx_team_10
+sleep 5s
 docker cp water/config.yml gx_water:/server/config.yml
 docker cp water/server-icon.png gx_water:/server/server-icon.png
 docker cp water/LuckPerms/config.yml gx_water:/server/LuckPerms/config.yml
@@ -75,4 +77,8 @@ docker exec gx_team_10 chown -R 1000:1000 /data/spigot.yml
 docker exec gx_team_10 chown -R 1000:1000 /data/bukkit.yml
 docker exec gx_team_10 chown -R 1000:1000 /data/ops.json
 sleep 5s
-clear && docker restart gx_db gx_water gx_lobby gx_team_01 gx_team_02 gx_team_03 gx_team_04 gx_team_05 gx_team_06 gx_team_07 gx_team_08 gx_team_09 gx_team_10
+clear && docker start gx_db gx_water gx_lobby gx_team_01 gx_team_02 gx_team_03 gx_team_04 gx_team_05 gx_team_06 gx_team_07 gx_team_08 gx_team_09 gx_team_10
+sleep 60s
+docker exec -it gx_lobby lpb user Djbrown_ perm set luckperms.*
+docker exec -it gx_lobby lpb user Xbird_ perm set luckperms.*
+docker exec -it gx_lobby lpb user Sheiyla perm set luckperms.*
