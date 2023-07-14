@@ -3,6 +3,7 @@ cd ~/gx-event
 clear && docker-compose -f docker-compose.cosmiccraft.yml up -d
 sleep 170s
 docker cp water/config.yml gx_water:/server/config.yml
+docker cp water/LuckPerms/config.yml gx_water:/server/LuckPerms/config.yml
 docker cp spigot/spigot.yml gx_lobby:/data/spigot.yml
 docker cp spigot/ops.json gx_lobby:/data/ops.json
 docker cp spigot/spigot.yml gx_team_01:/data/spigot.yml
@@ -27,6 +28,7 @@ docker cp spigot/spigot.yml gx_team_10:/data/spigot.yml
 docker cp spigot/ops.json gx_team_10:/data/ops.json
 sleep 5s
 docker exec gx_water chown -R 1000:1000 /server/config.yml
+docker exec gx_water chown -R 1000:1000 /server/LuckPerms/config.yml
 docker exec gx_lobby chown -R 1000:1000 /data/spigot.yml
 docker exec gx_lobby chown -R 1000:1000 /data/ops.json
 docker exec gx_team_01 chown -R 1000:1000 /data/spigot.yml
