@@ -20,6 +20,9 @@
 
 ## CosmicCraft
 Execute `./gx-event/gx_event.sh`
+
+## CosmicCraft Destroy
+Execute `./gx-event/gx_destroy.sh`
 ## Waterfall
 Execute `./gx-event/gx_water.sh`
 
