@@ -1,4 +1,6 @@
-clear && docker-compose -f gx-event/docker-compose.cosmiccraft.yml down
+#!/bin/sh
+cd ~/gx-event
+clear && docker-compose -f docker-compose.cosmiccraft.yml down
 docker volume rm gx-event_DB
 docker volume rm gx-event_WATER
 docker volume rm gx-event_LOBBY
