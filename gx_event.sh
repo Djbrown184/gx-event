@@ -2,20 +2,29 @@
 cd ~/gx-event
 clear && docker-compose -f docker-compose.cosmiccraft.yml up -d
 sleep 170s
-docker cp water/ gx_water:/server/
-docker cp spigot/ gx_lobby:/data/
-docker cp spigot/ gx_team_01:/data/
-docker cp spigot/ gx_team_02:/data/
-docker cp spigot/ gx_team_03:/data/
-docker cp spigot/ gx_team_04:/data/
-docker cp spigot/ gx_team_05:/data/
-docker cp spigot/ gx_team_06:/data/
-docker cp spigot/ gx_team_07:/data/
-docker cp spigot/ gx_team_08:/data/
-docker cp spigot/ gx_team_09:/data/
-docker cp spigot/ gx_team_09:/data/
-docker cp spigot/ gx_team_10:/data/
-docker cp spigot/ gx_team_10:/data/
+docker cp water/config.yml gx_water:/server/config.yml
+docker cp spigot/spigot.yml gx_lobby:/data/spigot.yml
+docker cp spigot/ops.json gx_lobby:/data/ops.json
+docker cp spigot/spigot.yml gx_team_01:/data/spigot.yml
+docker cp spigot/ops.json gx_team_01:/data/ops.json
+docker cp spigot/spigot.yml gx_team_02:/data/spigot.yml
+docker cp spigot/ops.json gx_team_02:/data/ops.json
+docker cp spigot/spigot.yml gx_team_03:/data/spigot.yml
+docker cp spigot/ops.json gx_team_03:/data/ops.json
+docker cp spigot/spigot.yml gx_team_04:/data/spigot.yml
+docker cp spigot/ops.json gx_team_04:/data/ops.json
+docker cp spigot/spigot.yml gx_team_05:/data/spigot.yml
+docker cp spigot/ops.json gx_team_05:/data/ops.json
+docker cp spigot/spigot.yml gx_team_06:/data/spigot.yml
+docker cp spigot/ops.json gx_team_06:/data/ops.json
+docker cp spigot/spigot.yml gx_team_07:/data/spigot.yml
+docker cp spigot/ops.json gx_team_07:/data/ops.json
+docker cp spigot/spigot.yml gx_team_08:/data/spigot.yml
+docker cp spigot/ops.json gx_team_08:/data/ops.json
+docker cp spigot/spigot.yml gx_team_09:/data/spigot.yml
+docker cp spigot/ops.json gx_team_09:/data/ops.json
+docker cp spigot/spigot.yml gx_team_10:/data/spigot.yml
+docker cp spigot/ops.json gx_team_10:/data/ops.json
 sleep 5s
 docker exec gx_water chown -R 1000:1000 /server/config.yml
 docker exec gx_lobby chown -R 1000:1000 /data/spigot.yml
