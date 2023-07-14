@@ -4,15 +4,15 @@ remote_ping_cache: -1
 forge_support: false
 player_limit: -1
 permissions:
-  default:
-  - bungeecord.command.server
-  - bungeecord.command.list
   admin:
   - bungeecord.command.alert
   - bungeecord.command.end
   - bungeecord.command.ip
   - bungeecord.command.reload
   - bungeecord.command.kick
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
 timeout: 30000
 log_commands: false
 network_compression_threshold: 256
@@ -71,10 +71,20 @@ listeners:
   query_enabled: false
   proxy_protocol: false
   forced_hosts:
-    pvp.md-5.net: pvp
+    pvp.md-5.net: lobby
   ping_passthrough: false
   priorities:
   - lobby
+  - team01
+  - team02
+  - team03
+  - team04
+  - team05
+  - team06
+  - team07
+  - team08
+  - team09
+  - team10
   bind_local_address: true
   host: 0.0.0.0:25577
   max_players: 100
