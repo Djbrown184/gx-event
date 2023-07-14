@@ -4,6 +4,8 @@ services:
   gx_db:
     container_name: gx_db
     image: mariadb/server:latest
+    ports:
+      - '3306:3306'
     volumes:
       - DB:/var/lib/mysql
     env_file: gx_db.env
