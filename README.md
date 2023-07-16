@@ -13,9 +13,11 @@
 </h4> 
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/version-1.0.0-blue?labelColor=rgb(95%2C95%2C95)">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Minecraft-1.20.1-blue?logo=Hack-the-Box&logoColor=00ff00">
   <img src="https://img.shields.io/github/license/Djbrown184/gx-event" alt="GitHub"/>
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/Djbrown184/gx-event">
   <img src="https://img.shields.io/github/stars/Djbrown184/gx-event?style=social" alt="GitHub stars"/>
+
 </p>
 
 ## CosmicCraft
