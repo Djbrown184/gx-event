@@ -21,52 +21,52 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&3Lobby &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Lobby\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.2:25565
     restricted: false
   team01:
-    motd: '&3Team &201 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u2776\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.3:25566
     restricted: false
   team02:
-    motd: '&3Team &202 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u2777\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.4:25567
     restricted: false
   team03:
-    motd: '&3Team &203 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u2778\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.5:25568
     restricted: false
   team04:
-    motd: '&3Team &204 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u2779\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.6:25569
     restricted: false
   team05:
-    motd: '&3Team &205 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277a\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.7:25570
     restricted: false
   team06:
-    motd: '&3Team &206 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277b\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.8:25571
     restricted: false
   team07:
-    motd: '&3Team &207 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277c\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.9:25572
     restricted: false
   team08:
-    motd: '&3Team &208 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277d\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.10:25573
     restricted: false
   team09:
-    motd: '&3Team &209 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277e\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.11:25574
     restricted: false
   team10:
-    motd: '&3Team &210 &1Cosm&ficC&4raft &6GX Event'
+    motd: '\u00a7a\u2714\u00a7e Team\u00a7e \u277f\u00a7a \u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
     address: 172.18.0.12:25575
     restricted: false
 listeners:
 - query_port: 25577
-  motd: '&1Cosm&ficC&4raft &6GX Event'
+  motd: '\u00a7a\u2714\u00a71 Cosm\u00a7ficC\u00a74raft\u00a7a \u2714\u00a7r\n\u00a76GX Event'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
