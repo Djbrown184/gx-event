@@ -90,7 +90,7 @@ listeners:
   max_players: 100
   tab_size: 60
   default_server: lobby
-  force_default_server: true
+  force_default_server: false
 ip_forward: true
 remote_ping_timeout: 5000
 prevent_proxy_connections: false
